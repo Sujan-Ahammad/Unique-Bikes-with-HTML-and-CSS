@@ -1,0 +1,210 @@
+body {
+  padding: 15px 140px 5px 140px;
+  margin: auto;
+  width: 1440px;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 140px;
+  color: white;
+  background: #040404;
+}
+.header-ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.header-ul li {
+  list-style: none;
+}
+.header-ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.header-profile {
+  gap: 10px;
+}
+.header-profile i {
+  color: white;
+  font-size: 30px;
+  margin-left: 40px;
+}
+.banner-container {
+  color: white;
+  background-image: url("/images/banner.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 20px 100px;
+  height: 900px;
+  position: relative;
+}
+.banner-text {
+  position: absolute;
+  right: 350px;
+  top: 350px;
+}
+.banner-text {
+  font-size: 60px;
+  font-style: thin;
+  font-weight: 700;
+}
+.banner-text {
+  margin-bottom: 8px;
+}
+.banner-title-one span {
+  color: red;
+}
+.shop-btn {
+  margin-top: 7px;
+  background: #040404;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* Cycle Container */
+.cycle-one-container {
+  padding: 10px 0 10px 140px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+}
+.cycle-two-container {
+  padding: 10px 0 140px 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+}
+
+.cycle-one-right {
+  background: red;
+  padding: 20px 100px 20px 30px;
+  width: 500px;
+  height: 600px;
+  position: relative;
+}
+.cycle-two-right {
+  padding-left: 300px;
+}
+.cycle-two-left {
+  background: red;
+  padding: 20px 30px 10px 0px;
+  width: 750px;
+  height: 600px;
+  position: relative;
+}
+.cycle-one-right img {
+  position: absolute;
+  left: -90%;
+}
+
+.cycle-two-left img {
+  position: absolute;
+  right: -45%;
+}
+
+.cycle-one-left {
+  padding-right: 300px;
+}
+.one-title,
+.two-title {
+  color: #000;
+  font-family: Condensed;
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 11.6px;
+  margin-bottom: 8px;
+}
+.one-title span,
+.two-title-span {
+  color: red;
+  font-family: Condensed;
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 11.6px;
+}
+.one-btn,
+.two-btn {
+  margin-top: 5px;
+  color: #000;
+  font-family: Condensed;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+  padding: 3px 5px;
+  border: none;
+  border-bottom: 3px solid black;
+  border-radius: 3px;
+}
+
+/* Comming Soon Section */
+.comming-container {
+  background-image: url("/images/cycle4.png");
+  width: 1100px;
+  height: 700px;
+  margin: auto;
+  background-repeat: no-repeat;
+  text-align: center;
+  position: relative;
+}
+.comming-div {
+  position: absolute;
+  top: 250px;
+  right: 15%;
+}
+
+.comming-title {
+  color: red;
+  font-family: Condensed;
+  font-size: 68px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 9px;
+  letter-spacing: 11.6px;
+}
+.comming-des {
+  color: white;
+  margin-top: 4px;
+  font-family: Condensed;
+  font-size: 68px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 11.6px;
+}
+
+
+/* Follow us Section */
+.follow-container{
+  padding: 40px 140px 10px 140px;
+}
+.follow-title{
+  width: 450px;
+  margin: auto;
+  padding: 10px 15px;
+  background: red;
+  text-align: center;
+  color: white;
+  font-family: Condensed;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
