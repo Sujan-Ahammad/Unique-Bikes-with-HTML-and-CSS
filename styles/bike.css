@@ -38,6 +38,7 @@ body {
 .banner-container {
   color: white;
   background-image: url("/images/banner.png");
+  
   background-repeat: no-repeat;
   width: 100%;
   padding: 20px 100px;
@@ -207,4 +208,25 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  margin-bottom: 10px;
+}
+.galary-container{
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+
+}
+.galary-left .img,.galary-right .img{
+  margin-bottom: 30px;
+}
+.copyright{
+  text-align: center;
+  padding: 20px 140px;
+  color: black;
+  font-size: 15px;
+  font-family: Condensed;
+  font-weight: 500;
+  line-height: normal;
+
 }

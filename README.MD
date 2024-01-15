@@ -1,8 +1,8 @@
-Burger Food
+Unique Cycle
 A simple HTML & CSS website
 
 Live Link
-Hosted in Github -> [Burger Food ](https://sujan-ahammad.github.io/Burger-Delivery-wtih-HTML-and-CSS/)
+Hosted in Github -> [Unique Cycle ](https://sujan-ahammad.github.io/Unique-Bikes-with-HTML-and-CSS/)
 
 Resources & Credits
 
